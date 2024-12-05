@@ -1,0 +1,8 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+# Adicione dependências, se necessário
+# find_dependency(<dependency_name> REQUIRED)
+
+include("${CMAKE_CURRENT_LIST_DIR}/lcopensdk-targets.cmake")
